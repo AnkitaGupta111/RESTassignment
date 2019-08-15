@@ -1,0 +1,12 @@
+1.to create employees
+POST /employees
+2. to update employees
+PUT /employees/{id}
+3. to get employee data
+GET /employees/{id}
+4.to add new project for the employee
+POST /employees/{id}/projects
+5.to get project from list of projects
+GET /employees/{id}/projects/{id}
+6.to edit project 
+PUT /employees/{id}/projects{id}
